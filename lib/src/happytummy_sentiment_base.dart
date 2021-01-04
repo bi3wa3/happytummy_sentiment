@@ -84,9 +84,9 @@ class Sentiment {
       var result = {
         'score': score,
         'comparative': wordlist.isNotEmpty ? score / wordlist.length : 0,
-        'words': wordlist,
-        'good words': goodwords,
-        'badword': badwords
+        //'words': wordlist,
+        //'good words': goodwords,
+        //'badword': badwords
       };
       return result;
     } catch (e) {
